@@ -1,0 +1,256 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barralateral {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 0rem 1.7rem;
+    background:rgba(1, 66, 106, 1);
+    color: #fff;
+}
+
+.barralateral-brand {
+    height: 70px;
+    
+
+}
+
+.brand-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-icons span {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+.barralateral-user {
+    margin: 1rem 0rem 1rem 0rem;
+    text-align: center;
+}
+.barralateral-user img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+    border-top: 2px solid #efefef;
+}
+
+.barralateral-user h3 {
+    font-size: 1rem;
+
+}
+
+.barralateral-user span {
+    font-size: .8rem;
+    
+}
+
+.barralateral-menu {
+    margin-top: 3rem;
+}
+
+.menu-head {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fffcfc;
+    font-size: .95rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+}
+
+.barralateral-menu ul {
+    margin-bottom: 1.5rem;
+
+}
+.barralateral-menu li {
+    margin-bottom: .9rem;
+
+}
+.barralateral-menu li a {
+    color: #efefef;
+    font-size: .9rem;
+    margin-left: 5px;
+    align-items: center;
+}
+
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fefcfc;
+    padding: 1rem 1.5rem;
+
+}
+
+.menu-toggle label {
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.header-icons span {
+    display: inline-block;
+    margin-left: .7rem;
+    font-size: 1.4rem;
+}
+
+.menu-toggle label:hover {
+    background: #efefef;
+}
+
+.main-content {
+    margin-left: 300px;
+
+}
+
+main {
+    padding: 1.5rem;
+    background: #f1f5f9;
+    height: calc(100vh - 70px);
+}
+
+.page-registro {
+    max-width: calc(100vw-70px);
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin-top: -10px;
+    
+    
+}
+
+
+.categoria {
+    padding: 0;
+    height: 0rem;
+    
+}
+
+
+.parrafo1 {
+    margin-left: 170px;
+    float: center;
+    margin-top: 100px;
+    padding: 25px 25px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 15px;
+    width: 60vw;
+    height: 190px;
+    
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(1, 66, 106, 0.9);
+    
+}
+
+.parrafo2 {
+    margin-left: 240px;
+    justify-content: center;
+    float: center;
+    margin-top: 60px;
+    padding: 25px 25px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 15px;
+    width: 50vw;
+    height: 140px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    backdrop-filter: blur(10px);
+    background-color: rgba(1, 66, 106, 0.9);
+}
+
+.parrafohome {
+    background: #fff;
+    width: calc(100vw-140px);
+    height: 83vh;
+    border-radius: 10px;
+}
+
+.parrafohome h3 {
+    text-transform: uppercase;
+    padding-top: 70px;
+    text-align: center;
+    color: rgba(1, 66, 106, 0.9);
+    border: #092744;
+    font-size: 45px;
+    margin-top: 35px;
+    
+    
+    
+}
+
+.barralateral-menu ul li a:hover {
+    color:#02528a;
+    
+    background-color:rgb(255, 255, 255);
+    border-radius: 7px;
+    font-weight: 500;
+    
+    cursor: pointer;
+    margin-left: 10px;
+    
+    
+    
+}
+.main-registro {
+    padding: 1.5rem;
+    background: #f1f5f9;
+    height: calc(100vh - 70px);
+}
+
+.registro-personal {
+    background: #fff;
+    width: calc(100vw-140px);
+    height: 83vh;
+    border-radius: 10px;
+}
+
+.categoria-registro {
+    padding: 0;
+    height: 35px;
+}
+
+/*Haciendo animacion al dar click al menú
+
+
+
+.menu-block:nth-child(1) li {
+    background: #fcfcfd;
+    color: aqua;
+    margin-bottom: 2px;
+}
+.menu-block:nth-child(2) li {
+    background: #fcfcfd;
+    color: #02528a;
+    margin-left: 0;
+
+}*/
