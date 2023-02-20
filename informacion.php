@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,24 +134,12 @@
                 <span class="las la-sms"></span>
             </div>
         </header>
-        <main>
-            <div class="categoria">
-                <h3>Bienvenidos al Sistema de Inventarios de ATENTO.</h3>
+        <main class="main-registro">
+            <div class="categoria-registro">
+                <h3>Registros del Inventario</h3>
             </div>
-            <div class="parrafohome">
-                <h3>Entrega de Dotaciones</h3>
-                <div class="parrafo1">
-                    <p>La ley laboral contempla la obligación del empleador de entregarles la dotación a sus empleados por lo menos 3 veces al año. Esto permite la correcta ejecución del contrato de trabajo con las herramientas que faciliten su desarrollo.
-                        El artículo 230 del Código Sustantivo del Trabajo –CST– contempla la obligación de hacer entrega de la dotación, consistente en el suministro de calzado y vestido para ejercer la labor contratada, según las necesidades que se requieran.
-                        </p>
-                    
-                </div>
-                <div class="parrafo2">
-                    <p>
-                        Artículo 232: dispone que los empleadores “obligados a suministrar permanente calzado y vestido de labor a sus trabajadores harán entrega de dichos elementos en las siguientes fechas del calendario: 30 de abril, 31 de agosto y 20 de diciembre”.
-
-                    </p>
-                </div>
+            <div class="registro-personal">
+                
 
             </div>
         </main>
