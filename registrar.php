@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="barralateral">
-    <div class="barralateral-brand">
+        <div class="barralateral-brand">
             <div class="caja_trasera_login">
                 <img class="imagen" src="assets/images/atento.png"  alt="logo">
             </div>
@@ -114,7 +114,10 @@
 
     </div>
     <div class="main-content">
-        <header>
+        <div class="title">
+
+        </div>
+        <header class="head">
             <div class="menu-toogle">
                 <label for="">
                     <span class="las la-bars"></span>

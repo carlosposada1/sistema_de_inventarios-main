@@ -116,7 +116,7 @@
 
     </div>
     <div class="main-content">
-        <header>
+        <header class="head">
             <div class="menu-toogle">
                 <label for="">
                     <span class="las la-bars"></span>

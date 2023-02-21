@@ -116,7 +116,7 @@
 
     </div>
     <div class="main-content">
-        <header>
+        <header class="head">
             <div class="menu-toogle">
                 <label for="">
                     <span class="las la-bars"></span>
@@ -131,7 +131,7 @@
         </header>
         <main class="main-registro">
             <div class="categoria-registro">
-                <h3>Registro de Personal</h3>
+                <h3>Busqueda de Personal</h3>
             </div>
             <div class="registro-personal">
                 
