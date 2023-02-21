@@ -7,6 +7,14 @@
     padding: 0;
 }
 
+.imagen {
+    width: 210px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+    
+}
+
 .barralateral {
     width: 300px;
     position: fixed;
@@ -79,9 +87,10 @@
     font-size: 20px;
     font-weight: 500;
     padding: 0em 0.8em;
+    box-sizing: border-box;
     width: 100%;
     background: rgba(0,0,0,0);
-    border: 2px solid;
+    border: 1px solid;
     border-color: #084c7d;
     border-radius: 7px;
     transition: all 1s ease;
@@ -159,7 +168,7 @@ main {
 .categoria {
     padding: 0;
     height: 0rem;
-    
+    color: #084c7d;
 }
 
 
@@ -217,10 +226,10 @@ main {
     border: #092744;
     font-size: 45px;
     margin-top: 35px;
-    
-    
-    
+      
 }
+
+
 
 .barralateral-menu ul:hover {
     background-color:rgb(255, 255, 255);
@@ -269,6 +278,7 @@ main {
 .categoria-registro {
     padding: 0;
     height: 35px;
+    color: #084c7d;
 }
 
 /*Estilos formulario registro*/
@@ -295,6 +305,7 @@ main {
     margin-bottom: 15px;
     margin-left: 10px;
     margin-top: -5px;
+    color: #084c7d;
 }
 
 .container .title{
@@ -354,4 +365,36 @@ form .registro .input-registro {
 .registro .input-registro p {
     font-size: 16px;
 
+}
+
+.registro label{
+    font-size: 16px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+    padding-top: 2px;
+    color: #113f6e;
+    margin-top: -5px;
+    margin-left: 6px;
+}
+
+.botton {
+    
+    justify-content: center;
+    
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 0;
+    margin-top: 10px;
+    font-size: 16px;
+    background: rgb(5, 80, 126);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border:2px solid rgba(1, 66, 106, 1);
+    border-radius: 30px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 45px;
 }

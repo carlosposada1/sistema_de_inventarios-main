@@ -15,13 +15,8 @@
 <body>
     <div class="barralateral">
         <div class="barralateral-brand">
-            <div class="brand-flex">
-                <img src="img/logo.jpg" width="30px" alt="">
-
-                <div class="brand-icons">
-                    <span class="las-la-bell"></span>
-                    <span class="las-la-user-circle"></span>
-                </div>
+            <div class="caja_trasera_login">
+                <img class="imagen" src="assets/images/atento.png"  alt="logo">
             </div>
         </div>
         <div class="barralateral-main">

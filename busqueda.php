@@ -15,13 +15,8 @@
 <body>
     <div class="barralateral">
         <div class="barralateral-brand">
-            <div class="brand-flex">
-                <img src="img/logo.jpg" width="30px" alt="">
-
-                <div class="brand-icons">
-                    <span class="las-la-bell"></span>
-                    <span class="las-la-user-circle"></span>
-                </div>
+            <div class="caja_trasera_login">
+                <img class="imagen" src="assets/images/atento.png"  alt="logo">
             </div>
         </div>
         <div class="barralateral-main">
@@ -136,11 +131,53 @@
         </header>
         <main class="main-registro">
             <div class="categoria-registro">
-                <h3>Busqueda de Personal</h3>
+                <h3>Registro de Personal</h3>
             </div>
             <div class="registro-personal">
                 
-
+                <div class="container">
+                    <div class="title">
+                        <h3>Busqueda de Personal</h3>
+                    </div>
+                    <form action="insertarpersonal.php" method="POST">
+                    
+                        <div class="registro">
+                            <div class="input-registro">
+                                <label >Busqueda de Personal</label>
+                                <input type="number" name="identificacion"  class="form-control"  >
+                                <div>
+                                    
+                                </div>
+                            </div>
+                            <div class="input-registro">
+                                <label >Identificación</label>
+                                <input type="number" name="identificacion"  class="form-control"  >
+                            </div>
+                            <div class="input-registro">
+                                <label >Nombres</label>
+                                <input type="text" name="nombres"  class="form-control"  >
+                            </div>
+                            <div class="input-registro">
+                                <label >Apellidos</label>
+                                <input type="text" name="apellidos"  class="form-control"  >
+                            </div>
+                            
+                            <div class="input-registro">
+                                <label >Cargo</label>
+                                <input type="text" name="cargo"  class="form-control" >
+                            </div>
+                            <div class="input-registro">
+                                <label >Género</label>
+                                <input type="text" name="genero"  class="form-control"  >
+                            </div>
+                            
+                        </div>
+                        <div class="botton">
+                            
+                            <button type="submit" class="btn">Guardar Registro</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </main>
     </div>
