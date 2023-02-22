@@ -129,53 +129,60 @@
                 <span class="las la-sms"></span>
             </div>
         </header>
-        <main class="main-registro">
+        <main class="main-busqueda">
             <div class="categoria-registro">
                 <h3>Busqueda de Personal</h3>
-            </div>
-            <div class="registro-personal">
                 
-                <div class="container">
-                    <div class="title">
-                        <h3>Busqueda de Personal</h3>
-                    </div>
+            </div>
+            <div class="busqueda-personal">
                     <form action="insertarpersonal.php" method="POST">
-                    
-                        <div class="registro">
-                            <div class="input-registro">
-                                <label >Busqueda de Personal</label>
-                                <input type="number" name="identificacion"  class="form-control"  >
-                                <div>
+                        <div class="container-busqueda">
+                            <div class="title">
+                                <h3>Busqueda de Personal</h3>
+                            </div>
+                            <div class="buscar">
+                                <div class="input-busqueda">
+                                    <input type="text" name="buscar"  class="form-control"  >
+                                </div>
                                     
+                                <div class="botton-buscar">
+                                    <button type="submit" class="btn">Buscar</button>
+                                </div>
+                            
+                            </div>
+                            <div class="title">
+                                <h3>Información Personal</h3>
+                            </div>
+                        <div class="busqueda">
+                            
+                                <div class="input-busqueda">
+                                    <label >Identificación</label>
+                                    <input type="number" name="identificacion"  class="form-control"  >
+                                </div>
+                                <div class="input-busqueda">
+                                    <label >Nombres</label>
+                                    <input type="text" name="nombres"  class="form-control"  >
+                                </div>
+                                <div class="input-busqueda">
+                                    <label >Apellidos</label>
+                                    <input type="text" name="apellidos"  class="form-control"  >
+                                </div>
+                                
+                                <div class="input-busqueda">
+                                    <label >Cargo</label>
+                                    <input type="text" name="cargo"  class="form-control" >
+                                </div>
+                                <div class="input-busqueda">
+                                    <label >Género</label>
+                                    <input type="text" name="genero"  class="form-control"  >
+                                </div>
+                                <div class="botton">
+                                
+                                    <button type="submit" class="btn">Editar Registro</button>
                                 </div>
                             </div>
-                            <div class="input-registro">
-                                <label >Identificación</label>
-                                <input type="number" name="identificacion"  class="form-control"  >
-                            </div>
-                            <div class="input-registro">
-                                <label >Nombres</label>
-                                <input type="text" name="nombres"  class="form-control"  >
-                            </div>
-                            <div class="input-registro">
-                                <label >Apellidos</label>
-                                <input type="text" name="apellidos"  class="form-control"  >
-                            </div>
                             
-                            <div class="input-registro">
-                                <label >Cargo</label>
-                                <input type="text" name="cargo"  class="form-control" >
-                            </div>
-                            <div class="input-registro">
-                                <label >Género</label>
-                                <input type="text" name="genero"  class="form-control"  >
-                            </div>
-                            
-                        </div>
-                        <div class="botton">
-                            
-                            <button type="submit" class="btn">Guardar Registro</button>
-                        </div>
+                        </div>      
                     </form>
                 </div>
             </div>

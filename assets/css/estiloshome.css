@@ -275,6 +275,13 @@ main {
     border-radius: 10px;
 }
 
+.busqueda-personal {
+    background: #fff;
+    width: calc(100vw-140px);
+    height: 83vh;
+    border-radius: 10px;
+}
+
 .categoria-registro {
     padding: 0;
     height: 35px;
@@ -302,12 +309,19 @@ main {
 .container h3 {
     font-size: 20px;
     font-family: sans-serif;
+    margin-bottom: 17px;
+    margin-left: 10px;
+    margin-top: -5px;
+    color: #084c7d;
+}
+.container-busqueda h3 {
+    font-size: 20px;
+    font-family: sans-serif;
     margin-bottom: 15px;
     margin-left: 10px;
     margin-top: -5px;
     color: #084c7d;
 }
-
 .container .title{
     font-size: 25px;
     font-weight: 500;
@@ -375,6 +389,7 @@ form .registro .input-registro {
     
 }
 
+
 .registro .input-registro p {
     font-size: 16px;
 
@@ -392,9 +407,17 @@ form .registro .input-registro {
 
 .botton {
     
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.botton-buscar {
+
     justify-content: center;
     
-    margin-top: 40px;
+    margin-top: -40px;
+    margin-left: -60px;
 }
 
 .btn{
@@ -410,4 +433,109 @@ form .registro .input-registro {
     margin-bottom: 0px;
     width: 200px;
     height: 45px;
+}
+/*busqueda.php*/
+
+.container-busqueda .buscar {
+    background: #fff;
+    padding: 40px 20px 20px 0px;
+    border-radius: 7px;
+    justify-content: left;
+    align-items: center;
+    width: 55vw;
+    height: 7vh;
+    margin-left: -10px;
+    display: flex;
+    border:2px solid rgba(255, 255, 255, 0.2);
+    
+
+}
+.container-busqueda .busqueda {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+
+.container-busqueda .buscar .input-busqueda input {
+    padding: 10px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 16px;
+    height: 45px;
+    width: 350px;
+    outline: none;
+    border-radius: 6px;
+    border:2px solid rgba(1, 66, 106, 0.4);
+    margin-bottom: 20px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    
+
+    
+}
+.container-busqueda .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;   
+}
+
+.container-busqueda .title::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: -2px;
+    height: 3px;
+    width: 350px;
+    background: linear-gradient(135deg, orange,rgba(6, 93, 146), orange);
+}
+
+
+form .buscar .input-busqueda {
+    margin: 10px 10px 20px 10px;
+    width: calc(100%/2 - 25px);
+    
+}
+
+.busqueda .input-busqueda .form-control {
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container-busqueda{
+    
+    background: #fff;
+    padding: 35px 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    height: 45vh;
+    margin-left: 60px;
+    border:2px solid rgba(148, 159, 255, 0.2);
+    
+
+}
+
+
+.busqueda .input-busqueda input {
+    padding: 10px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 16px;
+    height: 45px;
+    width: 350px;
+    outline: none;
+    border-radius: 6px;
+    border:2px solid rgba(1, 66, 106, 0.4);
+    margin-bottom: 20px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    display: flex;
+    
+    
 }
