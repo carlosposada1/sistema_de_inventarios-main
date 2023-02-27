@@ -125,20 +125,26 @@
             <div class="categoria">
                 <h3>Bienvenidos al Sistema de Inventarios de ATENTO.</h3>
             </div>
-            <div class="parrafohome">
-                <h3>Entrega de Dotaciones</h3>
-                <div class="parrafo1">
-                    <p>La ley laboral contempla la obligación del empleador de entregarles la dotación a sus empleados por lo menos 3 veces al año. Esto permite la correcta ejecución del contrato de trabajo con las herramientas que faciliten su desarrollo.
-                        El artículo 230 del Código Sustantivo del Trabajo –CST– contempla la obligación de hacer entrega de la dotación, consistente en el suministro de calzado y vestido para ejercer la labor contratada, según las necesidades que se requieran.
-                        </p>
-                    
-                </div>
-                <div class="parrafo2">
-                    <p>
-                        Artículo 232: dispone que los empleadores “obligados a suministrar permanente calzado y vestido de labor a sus trabajadores harán entrega de dichos elementos en las siguientes fechas del calendario: 30 de abril, 31 de agosto y 20 de diciembre”.
+            <div class="container-subirexcel">
+                <h3>Subir Base de Datos</h3>
+                <div class="row">
+                    <div class=col-md-7>
+                        <form action="recibe_excel.php" method="POST" enctype="multipart/form-data">
+                            <div class="file-input text-center">
+                                <input type="file" name="Prototipo modulo entrega dotaciones" id="file-input" required accept=".xls, .xlsx" class="file-input__input">
+                                <label class="file-input__label" for="file-input">
+                                    <i class="zmdi zmdi-upload zmdi-hc-2x"></i>
+                                    <span>Elegir archivo de Excel</span>
+                                </label>
+                            </div>
+                            <div class="text-center mt-5">
+                                <input type="submit" name="subir" class="btn-enviar" value="Subir Excel"/>
+                            </div>
+                        </form>
+                    </div>
 
-                    </p>
-                </div>
+                <div class="col-md-5">
+                
 
             </div>
         </main>
