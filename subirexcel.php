@@ -7,8 +7,6 @@
     <title>Dash</title>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/estiloshome.css" />
-    
-    
 </head>
 <body>
     <div class="barralateral">
@@ -27,9 +25,9 @@
             </div>
             <div class="barralateral-menu">
                 <div class="menu-block">
-                    <ul>
+                <ul>
                         <li>
-                            <a href="home.html">
+                            <a href="home.php">
                             <img class="icon" src="data:image/png;base64,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">
                              INICIO
                             </a>
@@ -40,14 +38,6 @@
                             <a href="subirexcel.php">
                                 <img class="icon" src="data:image/png;base64,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">
                                  Subir Base de Datos 
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="registrar.php">
-                            <img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEI0lEQVR4nO2XbUwTdxzHb74wi1li9mIxW9L6kO2FVV+4jrAZXLoHE5S7AmM4JziZuEFBonvhNGqcAeeYYbOOp43BzBSkUkqhD3cgYOTJdoBL5p7IJiGXMQomGliElUH5Lj2g82iRIv1facYv+b65/HL/z+f+v/9djqKWaqnIlbZ9FCRic4zbQlqAH56QRkJLUEASCS1hAZ60hBQCPEkJqQR4UhJSCvAkJKQW4AMtEQwBPpASwRLgAyURTAE+EBKkBOYTKtQFNmtWr1emyq4pNbIepUb+CfURtSxkBLIafoNSIxtQauTwJEWWEhIC2U19UB2J+A98Ks+nyooXvUBO2z1sO7HdC14QSJEnBEzg6Q9vLTjaGff83D4M5nSCT3ilRlZGUdRji1bg3HdOxOcc9A2fKmtQxCuW+w0fjBFKzDs1y5OXdyjSnnpiXvBSC7xXkj8b/O3w5LWr5g3vj8CjjMw7n1ZgoGY3wDGe1BZHIEyz2gv+tYPPoiLvRf8PLWmBuDPVGLXGiuA7y1QIT/eGfzljDbp0r7t7nODUaiIC80npjd/hrNslgu9tVmFseAXOfr1GBO8Wsl1UPdBLj6KWjguawDf2P3C/bo8I/i7L4NR1FQadj2PCtQxXjJPwL6TJYS2KEPVOSYyDZfYGVMCfsdlw3I7uqndFMMMcgwPVMaCNMdjLRaJncCUACu22Z1CeH+4D3iPhAkfvl0xg3dGb6NCliyDGWAYa/W4Bnp5KvJlGZ/8qDDQ+h/6CjRipeHB8ZoRlJsDSHxAfoS/aR9DTeFK0+ATH4LQlSQRPT6VU9wr6chXoy10PR/4GuCxRD9kJYTeyCQo48fO1c16Lfmn1DX9WHwlH3iT8dP4q2zKHwGSIjFBOodZroUsVb/mEP6LfAUf+RhG8O/2FmwCWll5g7dHv8Y81WrRInTEBTFWsF/y+yij0FsyEV+DehTCMm7aT34HZZt9Z+7ZngV+5RCTW7EK5WY0WixpWixqlZjVyTQy6izajTxidyfG5U7gJToPw8fI7RM5AVVsH+usP4af6Y9hZk4Qu9k3AZgRshllBXOa5Dq2EAtN5/+p5JFRHA42HgZu3gBu6R4JEMAQyW38BXR0LxhiDO5x7B/RAfXLoCCRxWZ7Dml4TjS42sOAgKZBt+1N4+tMCjDEWx60fC6/GwYvh+LvyVbhY9eIVyDCVe+DjTMk40WwXrhtqLWjSZ+JyQyuuV2bjbokS98u3YswUuXgEzlztxY7kDLxRlIZDjVfwmX3IZ19x8210f7VVeH3+eGEn7IaTGLr0EkaN23yA0tIJHNN1gkk5jEy2e87eXPsQSpq6cL59BIVtDvzw7R7wBWFoMWQJ/w/mllb31zgMlqh1QuppOSxRTwox0SseCr+QEQpkqIVUsOG1/3uBpVoqas76F1zu1pLT+y0CAAAAAElFTkSuQmCC">
-                                 Registro de Personal
                             </a>
                         </li>
                     </ul>
@@ -129,19 +119,25 @@
                 <h3>Subir Base de Datos</h3>
                 <div class="row">
                     <div class=col-md-7>
-                        <form action="recibe_excel.php" method="POST" enctype="multipart/form-data">
+                        <form action="importar.php" method="POST" enctype="multipart/form-data">
                             <div class="file-input text-center">
-                                <input type="file" name="Prototipo modulo entrega dotaciones" id="file-input" required accept=".xls, .xlsx" class="file-input__input">
+                                <input type="file" name='excel_file' id="file-input" required accept=".xls, .xlsx" class="file-input__input">
                                 <label class="file-input__label" for="file-input">
                                     <i class="zmdi zmdi-upload zmdi-hc-2x"></i>
                                     <span>Elegir archivo de Excel</span>
                                 </label>
                             </div>
+                            
                             <div class="text-center mt-5">
                                 <input type="submit" name="subir" class="btn-enviar" value="Subir Excel"/>
                             </div>
                         </form>
                     </div>
+                    <!-- <h1>Suba el Archivo Excel para agregar a la base de Datos</h1>
+	<form action='importar.php' method='post' enctype='multipart/form-data'>
+		<input type='file' name='excel_file'>
+		<input type='submit' name='submit' value='Importar'>
+	</form> -->
 
                 <div class="col-md-5">
                 

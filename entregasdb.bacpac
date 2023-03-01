@@ -1,0 +1,47 @@
+USE [entregasdb]
+GO
+/****** Object:  Table [dbo].[usuarios]    Script Date: 28/02/2023 4:50:44 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[usuarios](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[codigo] [varchar](10) NOT NULL,
+	[usado] [bit] NOT NULL,
+	[nombre] [varchar](50) NULL,
+	[email] [varchar](50) NULL,
+	[password] [varchar](50) NULL,
+	[fecha_registro] [datetime] NULL,
+	[edad] [varchar](20) NULL,
+	[apellido] [varchar](20) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[usuarios] ON 
+GO
+INSERT [dbo].[usuarios] ([id], [codigo], [usado], [nombre], [email], [password], [fecha_registro], [edad], [apellido]) VALUES (1002, N'0', 0, N'nombre', N'email', N'0', CAST(N'2023-02-28T13:27:43.053' AS DateTime), N'edad', N'apellido')
+GO
+INSERT [dbo].[usuarios] ([id], [codigo], [usado], [nombre], [email], [password], [fecha_registro], [edad], [apellido]) VALUES (1003, N'1', 1, N'Juan', N'prueba1@gmail.com', N'123456789', CAST(N'2023-02-28T13:27:43.143' AS DateTime), N'23', N'Rodriguez')
+GO
+INSERT [dbo].[usuarios] ([id], [codigo], [usado], [nombre], [email], [password], [fecha_registro], [edad], [apellido]) VALUES (1004, N'2', 0, N'Ana', N'ana@example.com', N'0', CAST(N'2023-02-28T13:27:43.180' AS DateTime), N'21', N'Gonzalez')
+GO
+INSERT [dbo].[usuarios] ([id], [codigo], [usado], [nombre], [email], [password], [fecha_registro], [edad], [apellido]) VALUES (1005, N'3', 0, N'Roberto', N'roberto@example.com', N'0', CAST(N'2023-02-28T13:27:43.227' AS DateTime), N'45', N'Rodriguez')
+GO
+INSERT [dbo].[usuarios] ([id], [codigo], [usado], [nombre], [email], [password], [fecha_registro], [edad], [apellido]) VALUES (1006, N'4', 0, N'Sofia', N'sofia@example.com', N'0', CAST(N'2023-02-28T13:27:43.250' AS DateTime), N'37', N'Martinez')
+GO
+SET IDENTITY_INSERT [dbo].[usuarios] OFF
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [UQ__usuarios__40F9A20602E79C12]    Script Date: 28/02/2023 4:50:45 p. m. ******/
+ALTER TABLE [dbo].[usuarios] ADD UNIQUE NONCLUSTERED 
+(
+	[codigo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[usuarios] ADD  DEFAULT ((0)) FOR [usado]
+GO

@@ -586,18 +586,27 @@ form .buscar .input-busqueda {
   color: #333;
 }
 
-.container-subirexcel{
-    
-    background: #fff;
+.container-subirexcel {
+    background: rgb(191, 204, 250);
     padding: 55px 60px;
     border-radius: 7px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     width: 55vw;
     height: 60vh;
-    margin-left: 60px;
-    margin-top: 50px;
+    margin-left: 90px;
+    margin-top: 150px;
     border:2px solid rgba(148, 159, 255, 0.2);
-    
+}
+
+.container-subirexcel .row .text-center mt-5 {
+    justify-content: space-around;
+    padding: 1cm;
+}
+
+.class-row .col-lg-12 .table thead{
+    padding: 20px;
+    background: #185987;
+    color: #fdfdfd;
+    margin-top: 170px;
 
 }
